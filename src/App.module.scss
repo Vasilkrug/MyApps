@@ -1,0 +1,135 @@
+.container {
+width: 336px;
+  height: 350px;
+  border: 1px solid #C4C4C4;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border-top: none;
+  margin: 200px auto;
+
+}
+
+.top {
+  height: 28px;
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background: #36BCB4;
+}
+
+
+.head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 54px;
+}
+
+.title {
+  font-family: Roboto, sans-serif;
+  font-size: 26px;
+  margin: 0;
+  font-weight: 900;
+
+}
+
+
+
+.sortImage {
+  background: url("/images/sort.svg") no-repeat center center / contain;
+  width: 20px;
+  height: 20px;
+  margin-left: 28px;
+}
+
+.sortImage:hover {
+  background: url("/images/sortimagegreen.svg") no-repeat center center / contain;
+}
+
+.sortImage.active {
+  background: url("/images/sort-active.svg") no-repeat center center / contain;
+}
+.sortImage.active:hover {
+  background: url("/images/sort-active-green.svg") no-repeat center center / contain;
+}
+
+
+
+.middle {
+  width: 286px;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid #C4C4C4;
+  margin-left: 20px;
+  font-family: Roboto,sans-serif;
+  font-weight: 400;
+
+
+}
+
+.bottom {
+  border: 1px solid #C4C4C4;
+  width: 250px;
+  height: 80px;
+  margin-left: 20px;
+  border-radius: 10px;
+  overflow: auto;
+}
+
+.bottom::-webkit-scrollbar {
+  width: 7px;
+  background-color: #C4C4C4;
+  border-radius: 5px;
+}
+
+.bottom::-webkit-scrollbar-thumb {
+  background-color: #36BCB4;
+  border-radius: 5px;
+}
+
+
+.wrapper {
+  position: relative;
+}
+
+.button {
+  width: 150px;
+  height: 42px;
+  margin-left: 90px;
+  margin-bottom: 30px;
+  background: #3A90E0;
+  border: #3A90E0;
+  border-radius: 71px;
+  color: #FFFFFF;
+
+  &::after {
+    content: "+";
+    height: 42px;
+    width: 42px;
+    background: #5376F1;
+    border-radius: 50%;
+    position: absolute;
+    right: 93px;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+}
+
+.button:hover {
+  background: #36BCB4;
+}
+
+.button:hover::after {
+  background: #358F8A;
+}
+
+
+
+
+
+
+
