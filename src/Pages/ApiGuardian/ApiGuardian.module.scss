@@ -1,0 +1,27 @@
+.main {
+   
+    .input {
+width: 200px;
+height: 35px;
+
+    }
+
+.button {
+    width: 100px;
+    height: 41px;
+
+}
+
+
+.newsitem {
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+    font-size: 22px;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+}

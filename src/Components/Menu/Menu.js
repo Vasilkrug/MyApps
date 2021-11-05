@@ -1,5 +1,6 @@
 import React from "react";
 import {Link} from "react-router-dom";
+import style from "./Menu.module.scss"
 
 
 
@@ -8,18 +9,13 @@ import {Link} from "react-router-dom";
 function Menu () {
 
     return (
-<ul>
-    <li><Link to ="/guardian">Диспетчер задач</Link></li>
-    <li><Link to ="/page2">ApiGuardian</Link></li>
+<ul className={style.container}>
+    <li><Link to ="/guardian">ApiGuardian</Link></li>
+    <li><Link to ="/tasklist">TaskManager</Link></li>
 
 </ul>
 
     )
 }
-
-
-
-
-
 
 export default Menu;
