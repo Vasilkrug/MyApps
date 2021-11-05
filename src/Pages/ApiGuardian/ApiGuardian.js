@@ -33,6 +33,7 @@ function ApiGuardian(props) {
 
             <input className={style.input} onChange={(event) => changeInputHandler(event)} type="text" />
             <button className={style.button} onClick={clickButtonHandler} >Фильтровать</button>
+
             <div className={style.newsitem}>
                 {
                     data.map((elem, index) => {
@@ -43,7 +44,7 @@ function ApiGuardian(props) {
                     })
                 }
             </div>
-        </div>
+        </div >
     );
 }
 
